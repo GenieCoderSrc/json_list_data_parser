@@ -31,8 +31,9 @@ Future<void> main() async {
     null,
   ];
 
-  List<User>? usersList =
-      jsonList.listOfMapToListOfModels(User.fromJson)?.cast<User>();
+  List<User>? usersList = jsonList
+      .listOfMapToListOfModels(User.fromJson)
+      ?.cast<User>();
   print(usersList?.map((user) => user?.name).toList()); // [Charlie, Diana]
 
   // Example using Stream extension
