@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.3
+
+### Aug 22, 2025
+
+### ✨ Updated
+
+- Updated Dart sdk to 3.9.0
+- Removed `flutter_lints` Dependency
+
+
 ## 0.0.2
 - Added extension for `Future<List<Map<String, dynamic>>>` to convert into a strongly typed model list.
 - Added extension for `List<Map<String, dynamic>>` to convert into a list of models.

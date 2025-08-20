@@ -1,14 +1,14 @@
 name: json_list_data_parser
 description: "A Dart package providing extensions to convert Future, List, and Stream of JSON maps into strongly typed model objects effortlessly."
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/GenieCoderSrc/json_list_data_parser
 repository: https://github.com/GenieCoderSrc/json_list_data_parser
 issue_tracker: https://github.com/GenieCoderSrc/json_list_data_parser/issues
 
 
 environment:
-  sdk: ^3.8.1
-  flutter: ">=1.17.0"
+  sdk: ^3.9.0
+  flutter: ">=3.0.0"
 
 dependencies:
   flutter:
@@ -17,7 +17,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
+  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
